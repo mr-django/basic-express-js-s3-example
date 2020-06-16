@@ -1,7 +1,6 @@
 const aws = require("aws-sdk");
 const fs = require("fs");
 const { GetObject } = require("../constants/s3Operations");
-const { PassThrough } = require("stream");
 
 const s3AccessKeyId = "A"; // TODO: Please insert
 const s3SecretAccessKey = ""; // TODO: Please insert
