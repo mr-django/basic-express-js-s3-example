@@ -2,7 +2,7 @@ const aws = require("aws-sdk");
 const fs = require("fs");
 const { GetObject } = require("../constants/s3Operations");
 
-const s3AccessKeyId = "A"; // TODO: Please insert
+const s3AccessKeyId = ""; // TODO: Please insert
 const s3SecretAccessKey = ""; // TODO: Please insert
 const s3BucketName = ""; // TODO: Please insert
 const s3Region = "eu-west-2"; // TODO: Please insert
